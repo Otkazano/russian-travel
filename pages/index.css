@@ -1,0 +1,68 @@
+/* vendor */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
+
+/* page */
+@import url(../blocks/page/page.css);
+
+.page {
+    background-color: #2A2C2F;
+    color: #FFF;
+    font-family: 'Inter', 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.links-style {
+    text-decoration: none;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.links-style:hover {
+    opacity: 0.8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 48px 56px;
+    max-width: 1184px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    width: 176px;
+    height: 52px;
+}
+
+.header__lang {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: end;
+}
+
+.header__lang-el {
+    list-style: none;
+    margin-right: 18px;
+}
+
+.header__lang-el:last-of-type {
+    margin-right: 0;
+}
+
+.header__lang-link {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.header__lang-link_choice {
+    text-decoration: underline;
+}
