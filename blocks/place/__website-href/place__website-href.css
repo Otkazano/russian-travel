@@ -1,0 +1,9 @@
+.place__website-href {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-top: 12px;
+}

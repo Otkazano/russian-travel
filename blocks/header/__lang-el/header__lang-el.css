@@ -1,0 +1,8 @@
+.header__lang-el {
+    list-style: none;
+    margin-right: 18px;
+}
+
+.header__lang-el:last-of-type {
+    margin-right: 0;
+}

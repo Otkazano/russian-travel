@@ -1,0 +1,11 @@
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 28px 48px 56px;
+    max-width: 1800px;
+    margin: 0 auto;
+}
