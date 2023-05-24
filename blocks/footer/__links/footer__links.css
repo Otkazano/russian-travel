@@ -9,6 +9,9 @@
 
 @media (max-width:750px) {
     .footer__links {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         padding-bottom: 48px;
     }

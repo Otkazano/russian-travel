@@ -19,6 +19,9 @@
 @media (max-width:750px) {
     .footer {
         padding: 64px 16px 24px 16px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 }

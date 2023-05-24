@@ -27,7 +27,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list-el/_weight/intro__list-el_weight_light.css);
+@import url(../blocks/intro/__list-el/_theme/intro__list-el_theme_light.css);
 
 /* gallery */
 @import url(../blocks/gallery/gallery.css);
