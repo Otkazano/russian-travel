@@ -12,7 +12,7 @@
 
 ### Планы по доработке:
 - [ ] Добавить форму обратной связи
-- [ ] Добавить инетересной информации
+- [ ] Реализация функционала смены языка страницы
 
 ### Ссылка на проект:
 * [Figma](https://www.figma.com/file/klDXrd0XQxyvAi4caMcyV9/Sprint-3_-Russia-_-desktop-%2B-mobile?type=design&node-id=62863%3A634&t=5B6Y5qyjwyFhpMvR-1)
