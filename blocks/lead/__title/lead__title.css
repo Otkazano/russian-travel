@@ -15,3 +15,10 @@
         margin-bottom: 16px;
     }
 }
+
+@media (min-width: 321px) and (max-width: 761px) {
+    .lead__title {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
