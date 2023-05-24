@@ -7,3 +7,23 @@
     max-width: 1430px;
     margin: 0 auto;
 }
+
+@media (max-width:1100px) {
+    .gallery {
+        grid-gap: 14px;
+    }
+}
+
+@media (max-width:990px) {
+    .gallery {
+        grid-gap: 16px;
+        padding: 0 24px 88px;
+    }
+}
+
+@media (max-width:750px) {
+    .gallery {
+        grid-gap: 12px;
+        padding: 0 16px 64px;
+    }
+}

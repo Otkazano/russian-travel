@@ -5,3 +5,10 @@
     margin: 0 0 40px;
     padding: 0;
 }
+
+@media (max-width:750px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 109%;
+    }
+}

@@ -16,3 +16,9 @@
     -ms-flex-align: center;
     align-items: center;
 }
+
+@media (max-width:1100px) {
+    .lead {
+        max-width: 928px;
+    }
+}

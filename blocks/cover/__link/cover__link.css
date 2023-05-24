@@ -34,3 +34,33 @@
 .cover__link:hover::before {
     opacity: 0.8;
 }
+
+@media (max-width:1100px) {
+    .cover__link {
+        min-height: 640px;
+    }
+}
+
+@media (max-width:990px) {
+    .cover__link {
+        min-height: 495px;
+    }
+}
+
+@media (max-width: 750px) {
+    .cover__link {
+        min-height: 410px;
+    }
+}
+
+@media (max-width: 540px) {
+    .cover__link {
+        min-height: 305px;
+    }
+}
+
+@media (max-width:420px) {
+    .cover__link {
+        min-height: 200px;
+    }
+}

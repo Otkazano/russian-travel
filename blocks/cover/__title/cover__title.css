@@ -9,3 +9,12 @@
     text-align: center;
     z-index: 2;
 }
+
+@media (max-width:750px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        padding-bottom: 16px;
+        max-width: 240px;
+    }
+}

@@ -9,3 +9,16 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
+
+@media (max-width:990px) {
+    .footer {
+        padding: 88px 24px 24px 24px;
+    }
+}
+
+@media (max-width:750px) {
+    .footer {
+        padding: 64px 16px 24px 16px;
+        flex-direction: column;
+    }
+}

@@ -12,3 +12,9 @@
     margin: 0;
     padding: 0;
 }
+
+@media (max-width:750px) {
+    .place__website {
+        padding: 0 16px;
+    }
+}

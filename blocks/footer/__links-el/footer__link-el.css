@@ -3,3 +3,13 @@
     padding: 0;
     padding-right: 18px;
 }
+
+@media (max-width:750px) {
+    .footer__links-el {
+        padding: 0;
+        padding-bottom: 32px;
+    }
+    .footer__links-el:last-child {
+        padding: 0;
+    }
+}

@@ -6,3 +6,15 @@
     padding: 0;
     max-width: 690px;
 }
+
+@media (max-width:990px) {
+    .intro__text {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:750px) {
+    .intro__text {
+        margin-bottom: 34px;
+    }
+}

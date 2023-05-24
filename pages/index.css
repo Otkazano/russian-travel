@@ -43,6 +43,7 @@
 @import url(../blocks/place/__website-url/place__website-url.css);
 @import url(../blocks/place/__website-href/place__website-href.css);
 @import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
 /* cover */
