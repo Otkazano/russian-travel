@@ -4,18 +4,6 @@
 
 @media (min-width: 480px) and (max-width: 750px) {
     .place__image {
-        padding-left: 16px;
-    }
-}
-
-@media (min-width: 470px) and (max-width: 480px) {
-    .place__image {
         padding-left: 8px;
-    }
-}
-
-@media (min-width: 465px) and (max-width: 470px) {
-    .place__image {
-        padding-left: 4px;
     }
 }
