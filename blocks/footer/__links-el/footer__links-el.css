@@ -6,7 +6,6 @@
 
 @media (max-width:750px) {
     .footer__links-el {
-        padding: 0;
         padding-bottom: 32px;
     }
     .footer__links-el:last-child {

@@ -11,11 +11,11 @@
 
 <body class="page">
   <header class="header">
-    <img src="./images/__logo.png" alt="Эмблема Россия" class="header__logo">
+    <img src="./images/__logo.svg" alt="Эмблема Россия" class="header__logo">
     <ul class="header__lang">
-      <li class="header__lang-el links-style"><a class="header__lang-link header__lang-link_choice" href="#"
+      <li class="header__lang-el"><a class="header__lang-link header__lang-link_active links-style" href="#"
           hreflang="ru" target="_blank" rel="noopener noreferrer">Ru</a></li>
-      <li class="header__lang-el links-style"><a class="header__lang-link" href="#" hreflang="en" target="_blank"
+      <li class="header__lang-el"><a class="header__lang-link links-style" href="#" hreflang="en" target="_blank"
           rel="noopener noreferrer">En</a></li>
     </ul>
   </header>
@@ -41,10 +41,8 @@
         стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
         <li class="intro__list-el">Часовых поясов <span class="intro__list-value">11</span></li>
-        <li class="intro__list-el">Объектов природного наследия ЮНЕСКО <span
-            class="intro__list-value">12</span></li>
-        <li class="intro__list-el">Объектов культурного наследия ЮНЕСКО <span
-            class="intro__list-value">16</span></li>
+        <li class="intro__list-el">Объектов природного наследия ЮНЕСКО <span class="intro__list-value">12</span></li>
+        <li class="intro__list-el">Объектов культурного наследия ЮНЕСКО <span class="intro__list-value">16</span></li>
         <li class="intro__list-el">Природных заповедников <span class="intro__list-value">105</span></li>
         <li class="intro__list-el">Аэропортов <span class="intro__list-value">241</span></li>
       </ul>
@@ -67,11 +65,13 @@
 
     <section class="places">
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Куршская коса</h2>
-        <p class="place__website"> <span class="place__website-url">URL</span><a class="place__website-href links-style"
-            href="http://park-kosa.ru" target="_blank" rel="noopener noreferrer">park-kosa.ru</a></p>
-        <img src="./images/place-kosa.jpg" alt="" class="place__image">
+        <div class="place__website">
+          <p class="place__website-url">URL</p><a class="place__website-href links-style" href="http://park-kosa.ru"
+            target="_blank" rel="noopener noreferrer">park-kosa.ru</a>
+        </div>
+        <img src="./images/place-kosa.jpg" alt="Фото Куршской косы" class="place__image">
         <div class="place__paragraphs">
           <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
             спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная
@@ -81,14 +81,16 @@
             россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и
             запах стального, прохладного моря.</p>
         </div>
+      </article>
 
-      </div>
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Кольский</h2>
-        <p class="place__website"><span class="place__website-url">URL</span><a class="place__website-href links-style"
+        <div class="place__website">
+          <p class="place__website-url">URL</p><a class="place__website-href links-style"
             href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank"
-            rel="noopener noreferrer">National Geographic</a></p>
-        <img src="./images/place-kolsky.jpg" alt="" class="place__image">
+            rel="noopener noreferrer">National Geographic</a>
+        </div>
+        <img src="./images/place-kolsky.jpg" alt="Фото Кольского полуострова" class="place__image">
         <div class="place__paragraphs">
           <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на
             юг —
@@ -99,14 +101,15 @@
             накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
             в Мурманск.</p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Алтай</h2>
-        <p class="place__website"> <span class="place__website-url">URL</span><a class="place__website-href links-style"
+        <div class="place__website">
+          <p class="place__website-url">URL</p><a class="place__website-href links-style"
             href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank" rel="noopener noreferrer">YouTube</a>
-        </p>
-        <img src="./images/place-altai.jpg" alt="" class="place__image">
+        </div>
+        <img src="./images/place-altai.jpg" alt="Фото леса Алтая" class="place__image">
         <div class="place__paragraphs">
           <p class="place__paragraph">Алтай — одно из красивейших мест в России.
             В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и
@@ -116,13 +119,15 @@
             всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах
             пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Зимний Байкал</h2>
-        <p class="place__website"><span class="place__website-url">URL</span><a class="place__website-href links-style"
-            href="https://vk.com/baikalmile" target="_blank" rel="noopener noreferrer">https://vk.com/baikalmile</a></p>
-        <img src="./images/place-winter-baikal.jpg" alt="" class="place__image">
+        <div class="place__website">
+          <p class="place__website-url">URL</p><a class="place__website-href links-style"
+            href="https://vk.com/baikalmile" target="_blank" rel="noopener noreferrer">https://vk.com/baikalmile</a>
+        </div>
+        <img src="./images/place-winter-baikal.jpg" alt="Фото замёрзшего Байкала" class="place__image">
         <div class="place__paragraphs">
           <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
             в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.
@@ -132,13 +137,15 @@
             к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале
             «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Карелия</h2>
-        <p class="place__website"><span class="place__website-url">URL</span><a class="place__website-href links-style"
-            href="http://vodlozero.ru/" target="_blank" rel="noopener noreferrer">http://vodlozero.ru/</a></p>
-        <img src="./images/place-karelia.jpg" alt="" class="place__image">
+        <div class="place__website">
+          <p class="place__website-url">URL</p><a class="place__website-href links-style" href="http://vodlozero.ru/"
+            target="_blank" rel="noopener noreferrer">http://vodlozero.ru/</a>
+        </div>
+        <img src="./images/place-karelia.jpg" alt="Фото озера в Карелии" class="place__image">
         <div class="place__paragraphs">
           <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
             лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
@@ -147,7 +154,7 @@
             В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
         </div>
-      </div>
+      </article>
 
     </section>
 
@@ -162,20 +169,22 @@
   </main>
 
   <footer class="footer">
-    <ul class="footer__links">
-      <li class="footer__links-el"><a href="https://yandex.ru/maps" class="footer__link links-style" target="_blank"
-          rel="noopener noreferrer">Карты</a></li>
-      <li class="footer__links-el"><a href="https://yandex.ru/pogoda" class="footer__link links-style" target="_blank"
-          rel="noopener noreferrer">Погода</a></li>
-      <li class="footer__links-el"><a href="https://rasp.yandex.ru" class="footer__link links-style" target="_blank"
-          rel="noopener noreferrer">Расписание</a></li>
-      <li class="footer__links-el"><a href="https://calendar.yandex.ru" class="footer__link links-style" target="_blank"
-          rel="noopener noreferrer">Календарь</a>
-      </li>
-      <li class="footer__links-el"><a href="https://travel.yandex.ru" class="footer__link links-style" target="_blank"
-          rel="noopener noreferrer">Путешествия</a>
-      </li>
-    </ul>
+    <nav>
+      <ul class="footer__links">
+        <li class="footer__links-el"><a href="https://yandex.ru/maps" class="footer__link links-style" target="_blank"
+            rel="noopener noreferrer">Карты</a></li>
+        <li class="footer__links-el"><a href="https://yandex.ru/pogoda" class="footer__link links-style" target="_blank"
+            rel="noopener noreferrer">Погода</a></li>
+        <li class="footer__links-el"><a href="https://rasp.yandex.ru" class="footer__link links-style" target="_blank"
+            rel="noopener noreferrer">Расписание</a></li>
+        <li class="footer__links-el"><a href="https://calendar.yandex.ru" class="footer__link links-style"
+            target="_blank" rel="noopener noreferrer">Календарь</a>
+        </li>
+        <li class="footer__links-el"><a href="https://travel.yandex.ru" class="footer__link links-style" target="_blank"
+            rel="noopener noreferrer">Путешествия</a>
+        </li>
+      </ul>
+    </nav>
     <p class="footer__copyright">&copy; 2023. Vladimir Strugov</p>
   </footer>
 

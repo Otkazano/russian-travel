@@ -1,7 +1,7 @@
 .place {
     display: -ms-grid;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: 460px 1fr;
     -webkit-column-gap: 40px;
     -moz-column-gap: 40px;
     column-gap: 40px;
