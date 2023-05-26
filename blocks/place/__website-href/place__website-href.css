@@ -7,3 +7,9 @@
     color: #FFFFFF;
     margin-top: 12px;
 }
+
+@media (prefers-color-scheme: light) {
+    .place__website-href {
+        color: black;
+    }
+}
