@@ -6,3 +6,10 @@
     -moz-osx-font-smoothing: grayscale;
     min-width: 320px;
 }
+
+@media (prefers-color-scheme: light) {
+    .page {
+        background-color: #f2f2f2;
+        color: black;
+    }
+}
