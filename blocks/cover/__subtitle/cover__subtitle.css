@@ -16,9 +16,3 @@
         max-width: 288px;
     }
 }
-
-@media (prefers-color-scheme: light) {
-    .cover__subtitle {
-        color: black;
-    }
-}
