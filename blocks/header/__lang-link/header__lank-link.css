@@ -12,3 +12,9 @@
         line-height: 20px;
     }
 }
+
+@media (prefers-color-scheme: light) {    
+    .header__lang-link {
+        color: black;
+    }
+}
