@@ -1,0 +1,93 @@
+.map__point {
+    opacity: 0;
+}
+
+@keyframes visibility {
+    to {
+        opacity: 1;
+    }
+}
+
+.map__point:nth-child(95) {
+    animation: visibility 0.2s linear forwards 2.3s;
+}
+.map__point:nth-child(96) {
+    animation: visibility 0.2s linear forwards 2.3s;
+}
+
+.map__point:nth-child(97) {
+    animation: visibility 0.2s linear forwards 0.5s;
+}
+.map__point:nth-child(98) {
+    animation: visibility 0.2s linear forwards 0.5s;
+}
+
+.map__point:nth-child(99) {
+    animation: visibility 0.2s linear forwards 5s;
+}
+.map__point:nth-child(100) {
+    animation: visibility 0.2s linear forwards 5s;
+}
+
+.map__point:nth-child(101) {
+    animation: visibility 0.2s linear forwards 6.1s;
+}
+.map__point:nth-child(102) {
+    animation: visibility 0.2s linear forwards 6.1s;
+}
+
+.map__point:nth-child(103) {
+    animation: visibility 0.2s linear forwards 8s;
+}
+.map__point:nth-child(104) {
+    animation: visibility 0.2s linear forwards 8s;
+}
+
+.map__point:nth-child(105) {
+    animation: visibility 0.2s linear forwards 9.4s;
+}
+.map__point:nth-child(106) {
+    animation: visibility 0.2s linear forwards 9.4s;
+}
+
+.map__point:nth-child(107) {
+    animation: visibility 0.2s linear forwards 12.4s;
+}
+.map__point:nth-child(108) {
+    animation: visibility 0.2s linear forwards 12.4s;
+}
+
+.map__point:nth-child(109) {
+    animation: visibility 0.2s linear forwards 13.5s;
+}
+.map__point:nth-child(110) {
+    animation: visibility 0.2s linear forwards 13.5s;
+}
+
+.map__point:nth-child(111) {
+    animation: visibility 0.2s linear forwards 14.6s;
+}
+.map__point:nth-child(112) {
+    animation: visibility 0.2s linear forwards 14.6s;
+}
+
+.map__point:nth-child(113) {
+    animation: visibility 0.2s linear forwards 16.3s;
+}
+.map__point:nth-child(114) {
+    animation: visibility 0.2s linear forwards 16.3s;
+}
+
+.map__point:nth-child(115) {
+    animation: visibility 0.2s linear forwards 19.3s;
+}
+.map__point:nth-child(116) {
+    animation: visibility 0.2s linear forwards 19.3s;
+}
+
+.map__point:nth-child(117) {
+    animation: visibility 0.2s linear forwards 20.4s;
+}
+.map__point:nth-child(118) {
+    animation: visibility 0.2s linear forwards 20.4s;
+}

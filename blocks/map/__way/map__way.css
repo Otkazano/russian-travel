@@ -1,0 +1,15 @@
+@keyframes way {
+  to {
+    stroke-dashoffset: 2780;
+  }
+}
+
+.map__way {
+  -webkit-animation: way 20s linear forwards 0.5s;
+  animation: way 20s linear forwards 0.5s;
+  fill: none;
+  stroke: white;
+  stroke-width: 2px;
+  stroke-dasharray: 1390;
+  stroke-dashoffset: 1390;
+}

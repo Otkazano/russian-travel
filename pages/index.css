@@ -22,6 +22,10 @@
 @import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/map/map.css);
+@import url(../blocks/map/__way/map__way.css);
+@import url(../blocks/map/__point/map__point.css);
+@import url(../blocks/map/__letter/map__letter.css);
 
 /* intro */
 @import url(../blocks/intro/intro.css);

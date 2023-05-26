@@ -1,0 +1,332 @@
+.map__letter {
+    opacity: 0;
+}
+
+@keyframes visibility {
+    to {
+        opacity: 1;
+    }
+}
+
+/* новгород */
+
+.map__letter:nth-child(2) {
+    animation: visibility 0.5s linear forwards 2.3s;
+}
+
+.map__letter:nth-child(3) {
+    animation: visibility 0.5s linear forwards 2.3s;
+}
+
+.map__letter:nth-child(4) {
+    animation: visibility 0.5s linear forwards 2.3s;
+}
+
+.map__letter:nth-child(5) {
+    animation: visibility 0.5s linear forwards 2.3s;
+}
+
+.map__letter:nth-child(6) {
+    animation: visibility 0.5s linear forwards 2.3s;
+}
+
+.map__letter:nth-child(7) {
+    animation: visibility 0.5s linear forwards 2.3s;
+}
+
+.map__letter:nth-child(8) {
+    animation: visibility 0.5s linear forwards 2.3s;
+}
+
+.map__letter:nth-child(9) {
+    animation: visibility 0.5s linear forwards 2.3s;
+}
+
+.map__letter:nth-child(10) {
+    animation: visibility 0.5s linear forwards 2.3s;
+}
+
+.map__letter:nth-child(11) {
+    animation: visibility 0.5s linear forwards 2.3s;
+}
+
+.map__letter:nth-child(12) {
+    animation: visibility 0.5s linear forwards 2.3s;
+}
+
+.map__letter:nth-child(13) {
+    animation: visibility 0.5s linear forwards 2.3s;
+}
+
+.map__letter:nth-child(14) {
+    animation: visibility 0.5s linear forwards 2.3s;
+}
+
+.map__letter:nth-child(15) {
+    animation: visibility 0.5s linear forwards 2.3s;
+}
+
+.map__letter:nth-child(16) {
+    animation: visibility 0.5s linear forwards 2.3s;
+}
+
+/* псков */
+
+.map__letter:nth-child(17) {
+    animation: visibility 0.5s linear forwards 0.5s;
+}
+
+.map__letter:nth-child(18) {
+    animation: visibility 0.5s linear forwards 0.5s;
+}
+
+.map__letter:nth-child(19) {
+    animation: visibility 0.5s linear forwards 0.5s;
+}
+
+.map__letter:nth-child(20) {
+    animation: visibility 0.5s linear forwards 0.5s;
+}
+
+.map__letter:nth-child(21) {
+    animation: visibility 0.5s linear forwards 0.5s;
+}
+
+/* тверь */
+.map__letter:nth-child(22) {
+    animation: visibility 0.5s linear forwards 5s;
+}
+.map__letter:nth-child(23) {
+    animation: visibility 0.5s linear forwards 5s;
+}
+.map__letter:nth-child(24) {
+    animation: visibility 0.5s linear forwards 5s;
+}
+.map__letter:nth-child(25) {
+    animation: visibility 0.5s linear forwards 5s;
+}
+.map__letter:nth-child(26) {
+    animation: visibility 0.5s linear forwards 5s;
+}
+
+/* ярославль */
+.map__letter:nth-child(27) {
+    animation: visibility 0.5s linear forwards 6.1s;
+}
+.map__letter:nth-child(28) {
+    animation: visibility 0.5s linear forwards 6.1s;
+}
+.map__letter:nth-child(29) {
+    animation: visibility 0.5s linear forwards 6.1s;
+}
+.map__letter:nth-child(30) {
+    animation: visibility 0.5s linear forwards 6.1s;
+}
+.map__letter:nth-child(31) {
+    animation: visibility 0.5s linear forwards 6.1s;
+}
+.map__letter:nth-child(32) {
+    animation: visibility 0.5s linear forwards 6.1s;
+}
+.map__letter:nth-child(33) {
+    animation: visibility 0.5s linear forwards 6.1s;
+}
+.map__letter:nth-child(34) {
+    animation: visibility 0.5s linear forwards 6.1s;
+}
+.map__letter:nth-child(35) {
+    animation: visibility 0.5s linear forwards 6.1s;
+}
+
+/* мантурово */
+.map__letter:nth-child(36) {
+    animation: visibility 0.5s linear forwards 8s;
+}
+.map__letter:nth-child(37) {
+    animation: visibility 0.5s linear forwards 8s;
+}
+.map__letter:nth-child(38) {
+    animation: visibility 0.5s linear forwards 8s;
+}
+.map__letter:nth-child(39) {
+    animation: visibility 0.5s linear forwards 8s;
+}
+.map__letter:nth-child(40) {
+    animation: visibility 0.5s linear forwards 8s;
+}
+.map__letter:nth-child(41) {
+    animation: visibility 0.5s linear forwards 8s;
+}
+.map__letter:nth-child(42) {
+    animation: visibility 0.5s linear forwards 8s;
+}
+.map__letter:nth-child(43) {
+    animation: visibility 0.5s linear forwards 8s;
+}
+.map__letter:nth-child(44) {
+    animation: visibility 0.5s linear forwards 8s;
+}
+
+/* котельнич-1 */
+.map__letter:nth-child(45) {
+    animation: visibility 0.5s linear forwards 9.4s;
+}
+.map__letter:nth-child(46) {
+    animation: visibility 0.5s linear forwards 9.4s;
+}
+.map__letter:nth-child(47) {
+    animation: visibility 0.5s linear forwards 9.4s;
+}
+.map__letter:nth-child(48) {
+    animation: visibility 0.5s linear forwards 9.4s;
+}
+.map__letter:nth-child(49) {
+    animation: visibility 0.5s linear forwards 9.4s;
+}
+.map__letter:nth-child(50) {
+    animation: visibility 0.5s linear forwards 9.4s;
+}
+.map__letter:nth-child(51) {
+    animation: visibility 0.5s linear forwards 9.4s;
+}
+.map__letter:nth-child(52) {
+    animation: visibility 0.5s linear forwards 9.4s;
+}
+.map__letter:nth-child(53) {
+    animation: visibility 0.5s linear forwards 9.4s;
+}
+.map__letter:nth-child(54) {
+    animation: visibility 0.5s linear forwards 9.4s;
+}
+.map__letter:nth-child(55) {
+    animation: visibility 0.5s linear forwards 9.4s;
+}
+
+/* глазов */
+.map__letter:nth-child(56) {
+    animation: visibility 0.5s linear forwards 12.4s;
+}
+.map__letter:nth-child(57) {
+    animation: visibility 0.5s linear forwards 12.4s;
+}
+.map__letter:nth-child(58) {
+    animation: visibility 0.5s linear forwards 12.4s;
+}
+.map__letter:nth-child(59) {
+    animation: visibility 0.5s linear forwards 12.4s;
+}
+.map__letter:nth-child(60) {
+    animation: visibility 0.5s linear forwards 12.4s;
+}
+.map__letter:nth-child(61) {
+    animation: visibility 0.5s linear forwards 12.4s;
+}
+
+/* пермь */
+.map__letter:nth-child(62) {
+    animation: visibility 0.5s linear forwards 13.5s;
+}
+.map__letter:nth-child(63) {
+    animation: visibility 0.5s linear forwards 13.5s;
+}
+.map__letter:nth-child(64) {
+    animation: visibility 0.5s linear forwards 13.5s;
+}
+.map__letter:nth-child(65) {
+    animation: visibility 0.5s linear forwards 13.5s;
+}
+.map__letter:nth-child(66) {
+    animation: visibility 0.5s linear forwards 13.5s;
+}
+
+/* тюмень */
+.map__letter:nth-child(67) {
+    animation: visibility 0.5s linear forwards 14.6s;
+}
+.map__letter:nth-child(68) {
+    animation: visibility 0.5s linear forwards 14.6s;
+}
+.map__letter:nth-child(69) {
+    animation: visibility 0.5s linear forwards 14.6s;
+}
+.map__letter:nth-child(70) {
+    animation: visibility 0.5s linear forwards 14.6s;
+}
+.map__letter:nth-child(71) {
+    animation: visibility 0.5s linear forwards 14.6s;
+}
+.map__letter:nth-child(72) {
+    animation: visibility 0.5s linear forwards 14.6s;
+}
+
+/* омск */
+.map__letter:nth-child(73) {
+    animation: visibility 0.5s linear forwards 16.3s;
+}
+.map__letter:nth-child(74) {
+    animation: visibility 0.5s linear forwards 16.3s;
+}
+.map__letter:nth-child(75) {
+    animation: visibility 0.5s linear forwards 16.3s;
+}
+.map__letter:nth-child(76) {
+    animation: visibility 0.5s linear forwards 16.3s;
+}
+
+/* красноярск */
+.map__letter:nth-child(77) {
+    animation: visibility 0.5s linear forwards 19.3s;
+}
+.map__letter:nth-child(78) {
+    animation: visibility 0.5s linear forwards 19.3s;
+}
+.map__letter:nth-child(79) {
+    animation: visibility 0.5s linear forwards 19.3s;
+}
+.map__letter:nth-child(80) {
+    animation: visibility 0.5s linear forwards 19.3s;
+}
+.map__letter:nth-child(81) {
+    animation: visibility 0.5s linear forwards 19.3s;
+}
+.map__letter:nth-child(82) {
+    animation: visibility 0.5s linear forwards 19.3s;
+}
+.map__letter:nth-child(83) {
+    animation: visibility 0.5s linear forwards 19.3s;
+}
+.map__letter:nth-child(84) {
+    animation: visibility 0.5s linear forwards 19.3s;
+}
+.map__letter:nth-child(85) {
+    animation: visibility 0.5s linear forwards 19.3s;
+}
+.map__letter:nth-child(86) {
+    animation: visibility 0.5s linear forwards 19.3s;
+}
+
+/* улан-удэ */
+.map__letter:nth-child(87) {
+    animation: visibility 0.5s linear forwards 20.4s;
+}
+.map__letter:nth-child(88) {
+    animation: visibility 0.5s linear forwards 20.4s;
+}
+.map__letter:nth-child(89) {
+    animation: visibility 0.5s linear forwards 20.4s;
+}
+.map__letter:nth-child(90) {
+    animation: visibility 0.5s linear forwards 20.4s;
+}
+.map__letter:nth-child(91) {
+    animation: visibility 0.5s linear forwards 20.4s;
+}
+.map__letter:nth-child(92) {
+    animation: visibility 0.5s linear forwards 20.4s;
+}
+.map__letter:nth-child(93) {
+    animation: visibility 0.5s linear forwards 20.4s;
+}
+.map__letter:nth-child(94) {
+    animation: visibility 0.5s linear forwards 20.4s;
+}
