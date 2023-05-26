@@ -8,11 +8,12 @@
 * адаптивная верстка через media-queries
 * наименование классов и организация файловой структуры Nested
 * подключены шрифты и их сглаживание
-* сайт сверстан по макету из Figma
+* сайт сверстан по макету из [Figma](https://www.figma.com/file/klDXrd0XQxyvAi4caMcyV9/Sprint-3_-Russia-_-desktop-%2B-mobile?type=design&node-id=62863%3A634&t=5B6Y5qyjwyFhpMvR-1)
+
+### Вне макета:
+* Поддержка темы устройства пользователя
 
 ### Планы по доработке:
 - [ ] Добавить форму обратной связи
+- [ ] Добавить анимацию в блок lead
 - [ ] Реализация функционала смены языка страницы
-
-### Ссылка на проект:
-* [Figma](https://www.figma.com/file/klDXrd0XQxyvAi4caMcyV9/Sprint-3_-Russia-_-desktop-%2B-mobile?type=design&node-id=62863%3A634&t=5B6Y5qyjwyFhpMvR-1)
