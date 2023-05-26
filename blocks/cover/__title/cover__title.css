@@ -18,3 +18,9 @@
         max-width: 240px;
     }
 }
+
+@media (prefers-color-scheme: light) {
+    .cover__title {
+        color: black;
+    }
+}
